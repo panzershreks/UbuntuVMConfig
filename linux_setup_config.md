@@ -127,4 +127,5 @@ pip install boto3
 pip install flake8
 pip install sqlalchemy
 pip install datetime
+pip install scipy
 ```
