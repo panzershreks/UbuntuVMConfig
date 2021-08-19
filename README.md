@@ -104,11 +104,20 @@ sudo apt-get -y install postgresql
 
 ### Install AWS Command Line Interface
 
+V2
 [AWS Documentation](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html)
 ```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
+```
+
+V1
+[AWS Documentation](https://docs.aws.amazon.com/cli/latest/userguide/install-linux.html#install-linux-bundled)
+```
+curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+unzip awscli-bundle.zip
+sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 ```
 
 ### Python is Python 3
