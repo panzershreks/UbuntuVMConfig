@@ -77,6 +77,11 @@ docker run hello-world
 sudo apt-get install python3-venv
 ```
 
+### Install python-is-python3
+```
+sudo apt-get install python-is-python3
+```
+
 ### Install AWS CLI V1
 ```
 curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
